@@ -1,7 +1,6 @@
 #container {
   width: 100%;
   height: 100%;
-
 }
 
 #contaianer {
@@ -52,21 +51,22 @@
   top: 0;
 }
 .p2 {
-  width: 150%;
+  width: 110%;
   height: 800px;
-  z-index: 8;
+  z-index: 10;
   background-image: url('/images/vinh2.png');
-  left: -20%;
+  left: 0%;
   top: 20%;
 }
 .p3 {
-  width: 1082px;
+  width: 100%;
   height: 800px;
-  z-index: 10;
-  background-image: url('http://i.imgur.com/QAyjA6B.png');
-  left: 718px;
+  z-index: 8;
+  background-image: url('/images/dock2.png');
+  left: 0px;
   top: 136px;
 }
+
 .letra {
   font-weight: 900;
   color: white;
