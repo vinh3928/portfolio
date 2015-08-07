@@ -131,8 +131,150 @@ nav {
   -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
   transition: width 2s, height 2s, background-color 2s, transform 2s; }
 
-* {
-  border: 1px solid green; }
+nav h1 {
+  display: inline-block;
+  color: white;
+  float: left;
+  font-size: 40px;
+  margin-left: 64px; }
+
+nav a {
+  font-size: 40px;
+  text-decoration: none; }
+
+nav a:hover {
+  background-color: white; }
+
+nav #nav-list a:not(:last-child) {
+  border-bottom: 2px solid white; }
+
+nav div {
+  text-align: center; }
+
+nav h2 {
+  color: white;
+  font-size: 40px;
+  float: right; }
+
+#hide {
+  display: none;
+  margin-bottom: 100px; }
+
+#blog {
+  display: none;
+  width: 300px; }
+
+#projects {
+  display: none;
+  width: 300px; }
+
+#resume {
+  display: none;
+  width: 300px; }
+
+#contact {
+  display: none;
+  width: 300px; }
+
+#nav-list {
+  display: block;
+  width: 300px;
+  margin: 0 auto; }
+
+.nav-menu {
+  text-align: center; }
+
+.project-slides {
+  display: none; }
+
+.project-slides button {
+  padding: 10px;
+  font-size: 30px;
+  border: none; }
+
+.next {
+  float: right;
+  margin-top: 50vh;
+  margin-right: 64px; }
+
+.prev {
+  float: left;
+  margin-top: 50vh;
+  margin-left: 64px; }
+
+.back {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5vh;
+  width: 300px; }
+
+.back:hover {
+  background-color: transparent; }
+
+.project-container img {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 50%;
+  height: 45vh; }
+
+p {
+  display: inline-block;
+  width: 50%;
+  color: white;
+  text-align: left;
+  font-size: 16px;
+  height: 30vh; }
+
+#resume-container {
+  display: none;
+  width: 100%;
+  margin-top: 5vh; }
+  #resume-container img {
+    width: 80%; }
+
+.resume-display {
+  width: 80%;
+  height: 80vh;
+  overflow: scroll;
+  margin: 0 auto;
+  display: block; }
+
+.resume-display::-webkit-scrollbar {
+  width: 1em; }
+
+.resume-display::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
+
+.resume-display::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey; }
+
+#contact-container {
+  display: none;
+  width: 100%;
+  margin-top: 5vh; }
+  #contact-container img {
+    width: 80%; }
+
+.contact-display {
+  width: 80%;
+  height: 80vh;
+  margin: 0 auto;
+  display: block;
+  position: relative; }
+  .contact-display a {
+    text-decoration: none;
+    display: block; }
+    .contact-display a:hover {
+      background-color: transparent; }
+  .contact-display h3 {
+    display: block;
+    color: white;
+    font-size: 40px; }
+
+.spacer {
+  height: 30%;
+  width: 100%; }
 
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }

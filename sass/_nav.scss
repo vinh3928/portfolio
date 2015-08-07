@@ -8,6 +8,72 @@ nav {
   transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
 
-* {
-  border: 1px solid green;
+nav h1 {
+  display: inline-block;
+  color: white;
+  float: left;
+  font-size: 40px;
+  margin-left: 64px;
 }
+
+nav a {
+  font-size: 40px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: rgb(255,255,255)
+
+}
+
+nav #nav-list a:not(:last-child) {
+  border-bottom: 2px solid white;
+}
+
+nav div {
+  text-align: center;
+}
+
+nav h2 {
+  color: white;
+  font-size: 40px;
+  float: right;
+}
+
+#hide {
+  display: none;
+  margin-bottom: 100px;
+}
+
+#blog {
+  display: none;
+  width: 300px;
+}
+
+#projects {
+  display: none;
+  width: 300px;
+}
+
+#resume {
+  display: none;
+  width: 300px;
+}
+
+#contact {
+  display: none;
+  width: 300px;
+}
+
+#nav-list {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+
+}
+
+.nav-menu {
+  text-align: center;
+}
+
+
